@@ -82,14 +82,14 @@ label {
     align-items: center;
 }
 
-.sidebarImg {
+.Icons {
     height: 30px;
     width: 30px;
     transition: height 0.5s ease-in-out, width  0.5s ease-in-out;
 
 }
 
-.sidebarImg:hover{
+.Icons:hover{
     height: 40px ;
      width: 40px ;
 }
@@ -116,16 +116,14 @@ label {
 
 .topNav{
     height: 50%;
+    display: flex;
 
 }
-.bottomNav{
-    height: 50%;
 
-}
 .topRight{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100%;
     width: 100%;
     gap: 30px;
@@ -134,7 +132,7 @@ label {
 }
 
 input{
-    width: 400px;
+    width: 600px;
     border-radius:15px ;
    padding-left: 30px;
     height: 35px;
@@ -144,4 +142,67 @@ input{
 
 input:focus{
     border: 3px solid black;
+}
+
+#profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.topLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+}
+
+#MainProfile{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+.bottomNav{
+    display: flex;
+    height: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottomLeft{
+    height: 100%;
+width: 100%;
+    margin-left: 30px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bottomRight{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;
+gap: 30px;
+}
+
+.NavButton{
+height: 40px;
+width: 70px;
+background: #5DADE2;
+border-radius: 45%;
+cursor: pointer; /* Mouse pointer on hover */
+
+
+}
+
+.NavButton:focus{
+    border: 2px solid black;
 }
